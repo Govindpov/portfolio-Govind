@@ -4,6 +4,9 @@
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #080808;
     color: white;
@@ -213,6 +216,10 @@ h1 span{
       nav .fa-solid{
         display: none;
       }
+      #span{
+        color: #ff0062;
+        display: block;
+      }
 
       @media(max-width:600px){
         .header-text{
@@ -235,6 +242,7 @@ h1 span{
             height: 100vh;
             padding-top: 50px;
             z-index: 2;
+            transition: right 0.5s;
         }
         nav ul li{
             display: block;
@@ -246,6 +254,9 @@ h1 span{
             left:25px;
             cursor: pointer;
         }
-
+        .copyright{
+            font-size: 15px;
+        }
+       
       }
       
